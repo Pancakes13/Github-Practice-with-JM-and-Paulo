@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<style>
+		#infoTable{
+			background-color:lightblue;
+		}
+	</style>
 </head>
-
 <body>
 	<h1>Welcome to the Github practice boys</h1>
-	<table>
+	<table id="infoTable">
 		<thead>
 			<tr>
 				<th>Name</th>
