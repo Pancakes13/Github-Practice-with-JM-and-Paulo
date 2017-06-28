@@ -24,20 +24,14 @@
 				<td>neil.llenes@gmail.com_addref</td>
 			</tr>
 			<tr>
-<<<<<<< HEAD
 				<td>Jesus</td>
-				<td>nepis</td>
-				<td>kusunokixrui@gmail.com</td>
-=======
-				<td>Neil</td>
 				<td>19</td>
-				<td>neil.llenes@gmail.com_addref</td>
-			</tr>
+				<td>kusunokixrui@gmail.com</td>
+				</tr>
 			<tr>
 				<td>Puru</td>
 				<td>19</td>
 				<td>rpaulojade@gmail.com</td>
->>>>>>> origin/edit-index-page
 			</tr>
 		</tbody>
 
