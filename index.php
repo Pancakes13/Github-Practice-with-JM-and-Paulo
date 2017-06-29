@@ -9,6 +9,7 @@
 </head>
 <body>
 	<h1>Welcome to the Github practice boys</h1>
+<div id="taable">
 	<table id="infoTable">
 		<thead>
 			<tr>
@@ -35,5 +36,17 @@
 			</tr>
 		</tbody>
 	</table>
+</div>
+	<button onclick="unHide()"> Click Me! </button>
 </body>
+<script>
+function unHide() {
+    var x = document.getElementById('taable');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
 </html>
