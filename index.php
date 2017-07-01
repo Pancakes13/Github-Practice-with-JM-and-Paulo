@@ -44,6 +44,7 @@
 	</table>
 </div>
 	<button class="btn btn-primary" onclick="unHide()"> Click Me! </button>
+	<a class="btn btn-primary" href="javascript:close_window();"> Don't Click Me! </a>
 </body>
 <script src="includes/jQuery/jquery-3.2.1.min.js"></script>
 <script src="includes/bootstrap/js/bootstrap.min.js"></script>  
