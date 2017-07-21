@@ -14,44 +14,69 @@
 		#buttonContent{
 			width:20%;
 		}
+		#taable{
+			width:80%;
+		}
+		body{
+			background-image:url("includes/img/paulo2.jpg");
+			background-size: contain;
+		}
+		#tableDiv{
+			background-color:beige;
+			margin-left:10%;
+			margin-right:10%;
+		}
+		#headerDiv{
+			background-color:grey;
+			opacity:0.8;
+		}
 	</style>
 </head>
 <body>
-	<h1>Welcome to the Github practice boys</h1>
-	<div id="taable">
-		<table id="infoTable" class="table table-bordered table-striped table-hover">
-			<thead>
-				<tr>
-					<th>Name</th>
-					<th>Age</th>
-					<th>Email</th>
-					<th>View</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Neil</td>
-					<td>19</td>
-					<td>neil.llenes@gmail.com_addref</td>
-					<td><button class="btn btn-info">View Website <span class="fa fa-eye"></span></button></td>
-				</tr>
-				<tr>
-					<td>Jesus</td>
-					<td>19</td>
-					<td>kusunokixrui@gmail.com</td>
-					<td><button class="btn btn-info">View Website <span class="fa fa-eye"></span></button></td>
-				</tr>
-				<tr>
-					<td>Puru</td>
-					<td>19</td>
-					<td>rpaulojade@gmail.com</td>
-					<td><button class="btn btn-info">View Website <span class="fa fa-eye"></span></button></td>
-				</tr>
-			</tbody>
-		</table>
+	<div id="headerDiv" align="center">
+		<br>
+		<h1 style="color:white;">Welcome to the Github practice boys</h1>
+		<br>
 	</div>
-	<div align="center">
-		<button id="buttonContent" class="btn btn-primary" onclick="unHide()"></button>
+	<div id="tableDiv" align="center">
+		<div id="taable">
+		<br>
+			<table id="infoTable" class="table table-bordered table-striped table-hover">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Age</th>
+						<th>Email</th>
+						<th>View</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Neil</td>
+						<td>19</td>
+						<td>neil.llenes@gmail.com_addref</td>
+						<td><button class="btn btn-info">View Website <span class="fa fa-eye"></span></button></td>
+					</tr>
+					<tr>
+						<td>Jesus</td>
+						<td>19</td>
+						<td>kusunokixrui@gmail.com</td>
+						<td><button class="btn btn-info">View Website <span class="fa fa-eye"></span></button></td>
+					</tr>
+					<tr>
+						<td>Puru</td>
+						<td>19</td>
+						<td>rpaulojade@gmail.com</td>
+						<td><button class="btn btn-info">View Website <span class="fa fa-eye"></span></button></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<br>
+		<div align="center">
+			<button id="buttonContent" class="btn btn-primary" onclick="unHide()"></button>
+		</div>
+		<br>
 	</div>
 </body>
 <script src="includes/jQuery/jquery-3.2.1.min.js"></script>
