@@ -54,7 +54,7 @@
 					<tr>
 						<td>Neil</td>
 						<td>19</td>
-						<td>neil.llenes@gmail.com_addref</td>
+						<td>neil.llenes@gmail.com</td>
 						<td><button class="btn btn-info">View Website <span class="fa fa-eye"></span></button></td>
 					</tr>
 					<tr>
